@@ -41,14 +41,17 @@ brew install cookiecutter
 
 Scaffold your project:
 ```
-cookiecutter gh:agconti/cookiecutter-django-rest
+cookiecutter gh:gliv/cookiecutter-django-rest
 ```
 
 ![Scaffolding](media/scaffolding.gif)
 
 Example of the result: https://github.com/agconti/piedpiper-web
 
-Try creating a user!
+
+## Try your shiny API
+
+Try creating a user:
 
 ```bash
 curl -d '{"username":"'"$RANDOM"'", "password":"test", "email":"test@test.com", "first_name":"test", "last_name":"user"}' \
